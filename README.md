@@ -1,2 +1,2 @@
-# arnavsin390.github.io
+# Arnav Singh
 Arnav's Data Portfolio
