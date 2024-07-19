@@ -7,6 +7,7 @@
 3. Data Modeling: After loading the data from Power Query, the Power BI Data Modeling feature was used to create appropriate relationships between the tables. For the InternetSales Fact table, the Order Date field was chosen to link with the Date table. A seperate table for visualization measures was also created.
 4. Data Visualization: This visualization features an intial dashboard with two detailed sheets for additional product and customer information. Filters and hierarchies were used in conjunction with several visuals including geographic maps, heatmaps, cards, and clustered bar charts. Calculated measures and conditional formatting was also used to highlight the relationship between sales and budget for a specific period.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **AdventureWorks Sales Manager Request:** 
 
