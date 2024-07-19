@@ -1,5 +1,5 @@
 
-**AdventureWorks Sales Manager Request: 
+**AdventureWorks Sales Manager Request:** 
 
 _Hi!
 I hope you are doing well. We need to improve our internet sales reports and want to move from static reports to visual dashboards.
@@ -9,13 +9,13 @@ We measure our numbers against budget so I added that in a spreadsheet so we can
 The budget is for 2020-2022 and we usually look 2 years back in time when we do analysis of sales.
 Let me know if you need anything else!_
 
-**Business Demand Overview:
+**Business Demand Overview:**
 -	Reporter: Company Sales Manager
 -	Value of Change: Visual dashboards, Improved sales reporting, Follow up for sales force
 -	Necessary Systems: Power BI, CRM System
 -	Other Relevant Info: Budgets have been delivered in Excel
   
-**User Stories:
+**User Stories:**
 
 | No # | As a (role)	| I want (request / demand) |	So that I (user value)| Acceptance Criteria |
 |------|--------------|---------------------------|-----------------------|---------------------|
