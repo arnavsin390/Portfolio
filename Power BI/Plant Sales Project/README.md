@@ -1,0 +1,6 @@
+# **Plant Sales Analysis**
+### Technologies: Microsoft Excel, Power BI
+#### Description: In this project, sales data for plants from an international seller was analyzed to identify pain points and potential growth opportunities. The dashboard provides a condensed, dynamic performance report that utilizes SWITCH measures and conditional formatting.
+1. Data Extraction and Transformation with Excel and Power Query: Data was brought into Power Query from Excel to perform necessary data cleansing and building necessary virtual tables for future visualizations. A virtual table (Values) was created for the SWITCH statement to operate on
+2. Data Modeling: Built necessary DAX measures and Calculated Columns to provide effective functionality for the SWITCH statement, and established relationships between the tables. CALENDAR() was used to create an intial date table (DIM_Date) and hierarchy, where a boolean calculated column (Inpast) was also added using variables and EDATE to ensure that when comparing YTD to PYTD there would not be blank values in the case that PYTD did not exist.
+3. Data Visualization: Designed the layout for visuals, bringing in the DAX from the modeling stage for maximum value. This dashboard revolves around the SWITCH statement for Gross Profit, Quantity, and Sales to manipulate several charts including the Waterfall, Treemap, and Scatter.
