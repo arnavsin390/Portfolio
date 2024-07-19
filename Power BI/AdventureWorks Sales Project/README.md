@@ -1,6 +1,6 @@
 # **AdventureWorks Sales Analysis**
 ### Technologies: SQL Server, Microsoft Excel, Power BI
-### Description: In this project, a request was received from a sales manager at AdventureWorks to provide a comprehensive visualization on their sales vs budget from 2021-2023. The AdventureWorks CRM system utilizes a SQL database to store sales and customer information, while monthly budgets were provided on an Excel spreadsheet. After necessary ETL steps, Power BI is used for the final visualizations.
+#### Description: In this project, a request was received from a sales manager at AdventureWorks to provide a comprehensive visualization on their sales vs budget from 2021-2023. The AdventureWorks CRM system utilizes a SQL database to store sales and customer information, while monthly budgets were provided on an Excel spreadsheet. After necessary ETL steps, Power BI is used for the final visualizations.
 ### Steps:
 1. Data Extraction and Transformation with SQL: SQL Queries were used to extract the relevant information from provided tables and clean it for later use.
 2. Data Transformation with Power Query: Power Query was used to import cleaned tables from SQL Server (Fact_InternetSalesM, DIM_Customers, DIM_Products, DIM_Customers) and Excel (FACT_Budget). Power Query was also used to ensure all columns were of the right type (date, geography, text...) and double check for duplicates.
