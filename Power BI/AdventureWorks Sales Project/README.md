@@ -1,4 +1,6 @@
+
 **AdventureWorks Sales Manager Request: 
+
 _Hi!
 I hope you are doing well. We need to improve our internet sales reports and want to move from static reports to visual dashboards.
 Essentially, we want to focus it on how much we have sold of what products, to which clients and how it has been over time.
@@ -12,7 +14,9 @@ Let me know if you need anything else!_
 -	Value of Change: Visual dashboards, Improved sales reporting, Follow up for sales force
 -	Necessary Systems: Power BI, CRM System
 -	Other Relevant Info: Budgets have been delivered in Excel
+  
 **User Stories:
+
 | No # | As a (role)	| I want (request / demand) |	So that I (user value)| Acceptance Criteria |
 |------|--------------|---------------------------|-----------------------|---------------------|
 | 1 | Sales Manager | To get a dashboard overview of internet sales	| Can follow better which customers and products sells the best | A Power BI dashboard which updates data once a day |
