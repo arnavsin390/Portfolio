@@ -1,5 +1,6 @@
 # **COVID Spread Analysis**
 ### Technologies: SQL Server, Microsoft Excel, Tableau
+#### Final Product: COVIDAnalysis.twb
 #### Description: 
 The COVID-19 pandemic has had a profound impact on global health, economies, and daily life. Despite the availability of vast amounts of data on COVID-19 infection rates, hospitalizations, recoveries, and deaths, there remains a need for clear, accessible, and informative visualizations that can help policymakers, healthcare professionals, researchers, and the general public understand the trends and patterns of the virus's spread. The challenge is to analyze and create a comprehensive visualization of global COVID-19 rates that can effectively communicate:
 
@@ -20,6 +21,21 @@ The COVID-19 pandemic has had a profound impact on global health, economies, and
 
 5. Interpretation and Insights: Provide clear interpretations of the visualizations, drawing attention to key trends, anomalies, and significant findings. Discuss potential reasons behind observed patterns and the implications for public health policy and response strategies.
 6. Accessibility and Usability: Ensure that the visualizations are user-friendly and accessible to a broad audience, including non-experts.
+
+### Files:
+1. Data Collection:
+   - CovidDeaths.xslx
+   - CovidVaccinations.xslx
+2. Data Cleaning and Exploratory Data Analysis:
+   - DataExploration.sql
+   - TableauChartQueries.sql
+3. SQL Query Results for Visualization
+   - Chart1Query.xslx
+   - Chart2Query.xslx
+   - Chart3Query.xslx
+   - Chart4Query.xslx
+4. **Final Tableau Visualization: COVIDAnalysis.twb**
+ 
 
 ### Process:
 1. Data Collection: Data was imported into SQL from [Our World in Data](https://ourworldindata.org/coronavirus) collected from the reputed sources of John Hopkins, WHO, and national health agencies.
