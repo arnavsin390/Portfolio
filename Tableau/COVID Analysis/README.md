@@ -22,7 +22,14 @@ The COVID-19 pandemic has had a profound impact on global health, economies, and
 5. Interpretation and Insights: Provide clear interpretations of the visualizations, drawing attention to key trends, anomalies, and significant findings. Discuss potential reasons behind observed patterns and the implications for public health policy and response strategies.
 6. Accessibility and Usability: Ensure that the visualizations are user-friendly and accessible to a broad audience, including non-experts.
 
-### Files:
+### Process:
+1. Data Collection: Data was imported into SQL from [Our World in Data](https://ourworldindata.org/coronavirus) collected from the reputed sources of John Hopkins, WHO, and national health agencies.
+2. Data Cleaning and EDA with SQL and Excel: Utilized exploratory select statements to discover trends and inconsistencies in data, including NUll values, data types, and non-country locations that would affect visuals. Created four seperate queries for specific data corresponding to later visuals, utilizing tools including aggregations, joins, subqueries, partitions, casting, CTE (Common Table Expressions), and temp tables to form a view. Results of quering this view were stored in excel worksheets allow importation into Tableau.
+3. Data Visualization: Imported four Excel sheets of SQL query results into Tableau to create a card of overall statistics highlighting COVID stats as of March 2021. A geographic map with conditional coloring shows the countries with the highest infection percentage, with an accompanying line chart forecasting 6 month infection rates for key countries. A treemap highlights countries with the highest infection count along with a bar chart focusing on total deaths per continent.
+
+#### _Result: This SQL EDA and corresponding Tableau visuals provide immediate and easily accessible insights for global covid trends, allowing for many use cases including serving health professionals to in identifying high risk areas for implementation of public health response strategies._
+
+#### Files:
 1. Data Collection:
    - CovidDeaths.xslx
    - CovidVaccinations.xslx
@@ -36,10 +43,3 @@ The COVID-19 pandemic has had a profound impact on global health, economies, and
    - Chart4Query.xslx
 4. **Final Tableau Visualization: COVIDAnalysis.twb**
  
-
-### Process:
-1. Data Collection: Data was imported into SQL from [Our World in Data](https://ourworldindata.org/coronavirus) collected from the reputed sources of John Hopkins, WHO, and national health agencies.
-2. Data Cleaning and EDA with SQL and Excel: Utilized exploratory select statements to discover trends and inconsistencies in data, including NUll values, data types, and non-country locations that would affect visuals. Created four seperate queries for specific data corresponding to later visuals, utilizing tools including aggregations, joins, subqueries, partitions, casting, CTE (Common Table Expressions), and temp tables to form a view. Results of quering this view were stored in excel worksheets allow importation into Tableau.
-3. Data Visualization: Imported four Excel sheets of SQL query results into Tableau to create a card of overall statistics highlighting COVID stats as of March 2021. A geographic map with conditional coloring shows the countries with the highest infection percentage, with an accompanying line chart forecasting 6 month infection rates for key countries. A treemap highlights countries with the highest infection count along with a bar chart focusing on total deaths per continent.
-
-#### _Result: This SQL EDA and corresponding Tableau visuals provide immediate and easily accessible insights for global covid trends, allowing for many use cases including serving health professionals to in identifying high risk areas for implementation of public health response strategies._
