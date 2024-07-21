@@ -24,6 +24,9 @@ The London bike-sharing scheme has been a significant initiative aimed at promot
 1. Data Exploration and Transformation with Python: Data was initially imported into python Jupyter Notebook (london_merged.csv) through installing the kaggle, zipfile, and pandas libraries. After converting data into a dataframe with pandas, exploratory functions were used to identify data size, column headers, data types, through functions such as .value_counts() and head(). Pandas was also used to remove unnecessary columns, rename columns, change data types, and modify data through mappings in dictionaries. Lastly, the modified dataframe was written to an excel filing using to_excel() for future visualization (london_bikes_final.xslx).
 2. Data Modeling: This data set only had one table, so there was no need to create a relationship model between multiple tables.
 3. Data Visualization: The Tableau dashboard utilizes user-defined parameters for an interactive Moving Average duration and period filter, as well as an overall filter for the Timeline. The filters and visualizations are built upon set actions (Moving Average Period Set) and calculated fields (Min Month, Max Month) that allow the user to select a specific area in the line chart to filter the rest visuals. A granular heatmap is provided for data by wind (kph) and temperature (C), and two other visuals are implemented as tooltips for the line chart and heatmap. Titles are dynamic based on the current user-defined parameters.
+   
+#### _Result: This creates a valuable tool for understanding the usage patterns and factors influencing the London bike-sharing scheme, which can aid in improving the service, planning for infrastructure needs, and promoting sustainable transportation._
+
 
 #### Files:
 1. Data Collection:
