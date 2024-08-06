@@ -19,6 +19,15 @@ Python, SQL Server, Excel, Tableau, and Power BI
 | [**London Bike Sharing Analysis**](#london-bike-sharing-analysis) | Created visualizations to understand usage patterns, peak times, and the impact of weather on bike-sharing activity. | [London Bike Sharing Folder](Tableau/London%20Bike%20Project) | [London Bike Sharing Visual](Tableau/London%20Bike%20Project/LondonBikeAnalysis.twb)  |
 | [**COVID Spread Analysis**](#covid-spread-analysis) | Analyzed global COVID-19 data to identify trends, spatial distribution, and the impact of various factors on infection rates. | [COVID Spread Analysis Folder](Tableau/COVID%20Analysis) | [COVID Spread Analysis Visual](Tableau/COVID%20Analysis/COVIDAnalysis.twb)    |
 
+## Python Projects
+
+| **Project Name**                      | **Project Description**                                                                                                                     | **Link to Project**          | **Link to Code Download**     |
+|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|------------------------------|
+| **Decision-Tree Algorithm Predictor** | Created two functions to generate sklearn clusters and a decision tree to predict the year that certain schools’ fight songs were written. | [Decision-Tree Algorithm Folder](Python/Decision-Tree%20Algorithm%20Predictor) | [Decison-Tree Download](Python/Decision-Tree%20Algorithm%20Predictor/Fight%20Songs%20Predictor.ipynb)  |
+| **MapReduce Predictor** | Utilized map reduce function pairs to learn association rules that can accurately predict what a customer will buy based on a subset of items in an order.  | [MapReduce Folder](Python/MapReduce%20Predictor) | [MapReduce Download](Python/MapReduce%20Predictor/Instacart%20Predictor.ipynb)    |
+| **Neural Network Predictor** | Coded a neural network trained to predict the rating that an anime will get based on its other features (e.g., genre, name, views, etc...). | [Neural Network Folder](Python/Neural%20Network%20Predictor) | [Neural Network Download](Python/Neural%20Network%20Predictor/Anime%20Predictor.ipynb)    |
+| **Support Vector Machine Model** | Created SVM models that diagnose breast cancer from images. | [SVM Folder](Python/Support%20Vector%20Machine%20Model) | [SVM Model Download](Python/Support%20Vector%20Machine%20Model/Breast%20Cancer%20SVM.ipynb)    |
+
 
 ## Power BI Project Details:
 
